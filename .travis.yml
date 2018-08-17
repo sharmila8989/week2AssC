@@ -2,7 +2,7 @@ language: csharp
 solution: week2AssC/week2AssC.sln
 install:
   - sudo apt-get install -y gtk-sharp2
-  - nuget restore week2AssC/week2AssC.sln
+  - nuget restore week2AssC
 deploy:
 provider: azure_web_apps
 skip_cleanup: true
